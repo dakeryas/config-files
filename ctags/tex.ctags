@@ -1,4 +1,5 @@
 --regex-tex=/\\newcommand\{\\([^}]*)\}/\1/c/command/
 --regex-tex=/\\DeclareRobustCommand\{\\([^}]*)\}/\1/c/command/
+--regex-tex=/\\NewDocumentCommand\{\\([^}]*)\}/\1/c/command/
 --regex-tex=/\\newenvironment\{([^}]*)\}/\1/e/environment/
 --regex-tex=/\\begin\{definition\}\[([^]]*)\]/\1/d/definition/
